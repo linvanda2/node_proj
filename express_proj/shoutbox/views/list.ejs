@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>列表</title>
+  </head>
+  <body>
+    <p><%= user.name %></p>
+    <ul>
+        <% for (let k in entries) { %>
+            <li>
+                <p><%= entries[k].title %></p>
+                <p><%= entries[k].body %></p>
+            </li>
+        <% } %>
+    </ul>
+  </body>
+</html>

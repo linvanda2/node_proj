@@ -1,0 +1,19 @@
+{
+    "env": {
+        "node": true
+    },
+    "type":"module",
+    "extends": [
+        "eslint:recommended"
+    ],
+    "overrides": [
+    ],
+    "parserOptions": {
+        "ecmaVersion": "latest"
+    },
+    "plugins": [
+    ],
+    "rules": {
+        "no-unused-vars": ["error", { "vars": "all", "args": "none", "ignoreRestSiblings": false }]
+    }
+}

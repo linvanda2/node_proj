@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+  </head>
+  <body>
+    <form action="/post" method="post">
+        <p>
+            <input name="entry[title]" placeholder="title"/>
+        </p>
+        <p>
+            <textarea name="entry[body]" placeholder="body"></textarea>
+        </p>
+        <p><input type="submit" value="提交" /></p>
+    </form>
+  </body>
+</html>
