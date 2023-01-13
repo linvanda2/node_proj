@@ -13,6 +13,7 @@
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
     "jquery": "^3.6.3",
-    "jsdom": "^21.0.0"
+    "jsdom": "^21.0.0",
+    "segment": "^0.1.3"
   }
 }
